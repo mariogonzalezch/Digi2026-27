@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 150px;
+    max-width: 600px;
+}
+
+h2{
+    color: #333;
+    border-bottom: 2px solid #ccc;
+}
+
+.hola{
+    margin-bottom: 30px;
+}
+
+.hola2{
+    font-size: 28px;
+    color: black;
+}
+
+.hola3{
+    font-size: 18px;
+    color: #555;
+}
+
+.hola4{
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+#adios{
+    text-align: center;
+    padding: 20px;
+    background-color: wheat;
+}
+
+#adios2{
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#adios3{
+    border-left: 4px solid #4a90e2;
+    padding-left: 15px;
+}
