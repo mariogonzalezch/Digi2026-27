@@ -1,0 +1,23 @@
+.diseño{
+    font-style: italic;
+    background-color: aquamarine;
+    padding: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.carrusel {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.carrusel img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: none;
+    border-radius: 8px;
+}
+.carrusel img.activa {
+    display: block;
+}
