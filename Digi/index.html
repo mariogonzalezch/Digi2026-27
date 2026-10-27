@@ -1,40 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pagina de GitHub</title>
-    <link rel="stylesheet" href="pruebacss.css">
+    <title>index</title>
 </head>
 <body>
-<div class="diseño">
-    <h1>Mario Gonzalez Chavarria</h1><br>
-    <label>Desarrollo de Aplicaciones Multiplataformas</label><br><br>
+<h1>Pagina para mostrar los proyectos de Digitalización</h1>
+<p><a href="cv.html" target="_blank">Proyecto de CV </a></p><br>
 
-    <div class="carrusel">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt6KbQdEiPeZq8ZFnL9ZX0pQBOte9T960qG6qglp7Nig&s=10" class="activa" alt="Imagen 1">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF1DIeU_KZLooQ2eI_7qL13Qa2UzMl4YOvxP6HTzYROg&s=10" alt="Imagen 2">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1py_ZNk-26pLcLWIuGxz3nABxWBBiY748h_E2zRawg&s=10" alt="Imagen 3">
-    </div>
-    <br>
-    <p>Todos los <b>repositorios</b> de clase. </p>
-    <p><a href="https://on1ntza.github.io/digi2026/" target="_blank">Github Principal</a> es la pagina de Onintza</p>
-    <p><a href="/Digi/Digi.html" target="_blank">Digitalización </a></p>
-    <p><a href="/Digi/LM.html" target="_blank">Lenguaje de Marcas </a></p>
-
-</div>
-
-</div>
-</div>
-
-<script>
-    const imagenes = document.querySelectorAll('.carrusel img');
-    let indiceActual = 0;
-    function cambiarImagen() {
-        imagenes[indiceActual].classList.remove('activa');// Ocultar la imagen actual
-        indiceActual = (indiceActual + 1) % imagenes.length;// Pasar a la siguiente (si llega al final, vuelve a la primera)
-        imagenes[indiceActual].classList.add('activa');// Mostrar la nueva imagen
-    }
-    setInterval(cambiarImagen, 3000);
-</script>
 </body>
 </html>
